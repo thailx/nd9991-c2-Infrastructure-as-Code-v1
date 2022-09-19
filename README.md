@@ -23,8 +23,17 @@ You can run the supporting material in two easy steps:
 # Create the network infrastructure
 # Check the region in the create.sh file
 ./create.sh myFirstStack network.yml network-parameters.json
+
+# ./create.sh Demo-Network-Stack thailx1-network.yml thailx1-network-parameters.json
+# ./create.sh Demo-Servers-Stack thailx1-servers.yml thailx1-servers-parameters.json
+
+
 # Create servers
 # Change the AMI ID and key-pair name in the servers.yml
 # Check the region in the update.sh file
 ./update.sh mySecStack servers.yml server-parameters.json
+# ./update.sh Demo-Servers-Stack thailx1-servers.yml thailx1-servers-parameters.json
+
+# ./update.sh Demo-Servers-Stack thailx1-servers.yml thailx1-servers-parameters.json
+
 ```
